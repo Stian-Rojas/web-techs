@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    font-family: Lucida Sans Unicode;
+    color: white;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: black;
+}
+
+.about {
+    padding-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.banner{
+    width: 100%;
+    height: fit-content;
+    background-image: url(img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 5rem;
+}
+
+a:link{
+    color: white;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: white;
+}
+
+.articles {
+    padding-top: 100px;
+    padding-bottom: 1%;
+}
+
+.cbox{
+    background-color: #32a8a2;
+    width: 200px;
+    height: 350px;
+    display: inline-block;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 5%;
+    border: 1px;
+    border-color: aliceblue;
+    border-style: solid;
+    text-align: center;
+}
+
+.cbox a {
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #333;
+    left: 0px;
+    right: 0px;
+}
+
+.cContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        font-size: 10px;
+    }
+}
